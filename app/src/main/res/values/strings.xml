@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StrayAnimalRescueApp</string>
+    <string name="start">Start</string>
+    <string name="logo">logo</string>
+    <string name="stray_animals_rescue_app">Stray Animals Rescue App</string>
+    <string name="title">title</string>
+</resources>

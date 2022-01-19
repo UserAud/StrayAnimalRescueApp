@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".v_choice">
+
+    <TextView
+            android:text="Hi volunteer, you may..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView12"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.39" app:layout_constraintVertical_bias="0.096"
+            android:textSize="20sp"/>
+    <ImageView
+            android:layout_width="222dp"
+            android:layout_height="283dp" app:srcCompat="@drawable/upload" android:id="@+id/imageView5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintVertical_bias="0.281"/>
+    <TextView
+            android:text="1. Upload new information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView13"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.493" app:layout_constraintVertical_bias="0.606"/>
+    <Button
+            android:text="Upload "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button6"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.498" app:layout_constraintVertical_bias="0.704"
+            android:onClick="v_choice1"/>
+    <TextView
+            android:text="2. Claim Bill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView14"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.792"/>
+    <Button
+            android:text="Claim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button7"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.501" app:layout_constraintVertical_bias="0.907"
+            android:onClick="v_choice2"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
