@@ -10,6 +10,10 @@
         <entry key="..\:/Users/AL/IdeaProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_adopt.xml" value="0.13360507246376813" />
         <entry key="..\:/Users/AL/IdeaProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_main.xml" value="0.13360507246376813" />
         <entry key="..\:/Users/AL/IdeaProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_menu.xml" value="0.4" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_donate.xml" value="0.22" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_userchoice.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_vchoice.xml" value="0.1" />
       </map>
     </option>
   </component>
@@ -21,5 +25,8 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
   </component>
 </project>
