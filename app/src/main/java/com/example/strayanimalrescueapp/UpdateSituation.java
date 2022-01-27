@@ -1,27 +1,24 @@
 package com.example.strayanimalrescueapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Claim extends AppCompatActivity {
+public class UpdateSituation extends AppCompatActivity {
+
     Button save, cancel;
-    EditText bill_amount, claim_username, claim_animals;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_claim);
+        setContentView(R.layout.activity_update_situation);
 
-        save = findViewById(R.id.claim_save);
-        cancel = findViewById(R.id.claim_cancel);
-        bill_amount = findViewById(R.id.bill_amont);
-        claim_username = findViewById(R.id.claim_user);
-        claim_animals = findViewById(R.id.claim_animal);
+        save = findViewById(R.id.situation_save);
+        cancel = findViewById(R.id.situation_cancel);
 
         save.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,5 +35,10 @@ public class Claim extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Action Cancelled.", Toast.LENGTH_LONG).show();
             }
         });
+    }
+
+    public void back(View view){
+        Intent i = new Intent(this, StrayAnimal1.class);
+        startActivity(i);
     }
 }

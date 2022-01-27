@@ -1,8 +1,10 @@
 package com.example.strayanimalrescueapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class AnimalList extends AppCompatActivity {
 
@@ -11,6 +13,23 @@ public class AnimalList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_animal_list);
     }
+    public void animal_oyen(View v){
+        Intent i = new Intent(this, StrayAnimal1.class);
+        startActivity(i);
+    }
 
-    
+    public void animal_milo(View v){
+        Intent i = new Intent(this, StrayAnimal1.class);
+        startActivity(i);
+    }
+
+    public void animal_max(View v){
+        Intent i = new Intent(this, StrayAnimal1.class);
+        startActivity(i);
+    }
+
+    public void animal_twinky(View v){
+        Intent i = new Intent(this, StrayAnimal1.class);
+        startActivity(i);
+    }
 }

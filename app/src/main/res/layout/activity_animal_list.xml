@@ -7,9 +7,10 @@
     tools:context=".AnimalList">
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/twinky_view"
         android:layout_width="77dp"
         android:layout_height="48dp"
+        android:onClick="animal_twinky"
         android:text="View"
         app:backgroundTint="#673AB7"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,7 +21,7 @@
         app:layout_constraintVertical_bias="0.907" />
 
     <TextView
-        android:id="@+id/textView26"
+        android:id="@+id/twinky_health_status"
         android:layout_width="183dp"
         android:layout_height="28dp"
         android:text="Health Status: Healthy"
@@ -34,7 +35,7 @@
         app:layout_constraintVertical_bias="0.832" />
 
     <TextView
-        android:id="@+id/textView25"
+        android:id="@+id/twinky_name"
         android:layout_width="137dp"
         android:layout_height="28dp"
         android:text="Name: Twinky"
@@ -48,9 +49,10 @@
         app:layout_constraintVertical_bias="0.782" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/max_view"
         android:layout_width="77dp"
         android:layout_height="48dp"
+        android:onClick="animal_max"
         android:text="View"
         app:backgroundTint="#673AB7"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,7 +63,7 @@
         app:layout_constraintVertical_bias="0.699" />
 
     <TextView
-        android:id="@+id/textView24"
+        android:id="@+id/max_health_status"
         android:layout_width="183dp"
         android:layout_height="28dp"
         android:text="Health Status: Sick"
@@ -75,7 +77,7 @@
         app:layout_constraintVertical_bias="0.627" />
 
     <TextView
-        android:id="@+id/textView21"
+        android:id="@+id/max_name"
         android:layout_width="137dp"
         android:layout_height="28dp"
         android:text="Name: Max"
@@ -89,9 +91,10 @@
         app:layout_constraintVertical_bias="0.573" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/milo_view"
         android:layout_width="77dp"
         android:layout_height="48dp"
+        android:onClick="animal_milo"
         android:text="View"
         app:backgroundTint="#673AB7"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -102,7 +105,7 @@
         app:layout_constraintVertical_bias="0.486" />
 
     <TextView
-        android:id="@+id/textView19"
+        android:id="@+id/milo_name"
         android:layout_width="137dp"
         android:layout_height="28dp"
         android:text="Name: Milo"
@@ -116,7 +119,7 @@
         app:layout_constraintVertical_bias="0.375" />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/milo_health_status"
         android:layout_width="183dp"
         android:layout_height="28dp"
         android:text="Health Status: Healthy"
@@ -130,7 +133,7 @@
         app:layout_constraintVertical_bias="0.432" />
 
     <TextView
-        android:id="@+id/textView22"
+        android:id="@+id/oyen_health_status"
         android:layout_width="151dp"
         android:layout_height="26dp"
         android:text="Health Status: Sick"
@@ -144,10 +147,10 @@
         app:layout_constraintVertical_bias="0.222" />
 
     <TextView
-        android:id="@+id/textView23"
+        android:id="@+id/oyen_name"
         android:layout_width="137dp"
         android:layout_height="28dp"
-        android:text="Name: Owen"
+        android:text="Name: Oyen"
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -172,9 +175,10 @@
         app:layout_constraintVertical_bias="0.053" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/oyen_view"
         android:layout_width="77dp"
         android:layout_height="48dp"
+        android:onClick="animal_oven"
         android:text="View"
         app:backgroundTint="#673AB7"
         app:layout_constraintBottom_toBottomOf="parent"
