@@ -178,7 +178,7 @@
         android:id="@+id/oyen_view"
         android:layout_width="77dp"
         android:layout_height="48dp"
-        android:onClick="animal_oven"
+        android:onClick="animal_oyen"
         android:text="View"
         app:backgroundTint="#673AB7"
         app:layout_constraintBottom_toBottomOf="parent"

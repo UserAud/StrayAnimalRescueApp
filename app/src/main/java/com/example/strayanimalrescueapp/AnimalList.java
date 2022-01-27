@@ -14,22 +14,22 @@ public class AnimalList extends AppCompatActivity {
         setContentView(R.layout.activity_animal_list);
     }
     public void animal_oyen(View v){
-        Intent i = new Intent(this, StrayAnimal1.class);
+        Intent i = new Intent(this, com.example.strayanimalrescueapp.StrayAnimal1.class);
         startActivity(i);
     }
 
     public void animal_milo(View v){
-        Intent i = new Intent(this, StrayAnimal1.class);
+        Intent i = new Intent(this, com.example.strayanimalrescueapp.StrayAnimal1.class);
         startActivity(i);
     }
 
     public void animal_max(View v){
-        Intent i = new Intent(this, StrayAnimal1.class);
+        Intent i = new Intent(this, com.example.strayanimalrescueapp.StrayAnimal1.class);
         startActivity(i);
     }
 
     public void animal_twinky(View v){
-        Intent i = new Intent(this, StrayAnimal1.class);
+        Intent i = new Intent(this, com.example.strayanimalrescueapp.StrayAnimal1.class);
         startActivity(i);
     }
 }
