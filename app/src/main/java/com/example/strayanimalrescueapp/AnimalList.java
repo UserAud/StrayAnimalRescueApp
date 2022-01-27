@@ -11,4 +11,6 @@ public class AnimalList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_animal_list);
     }
+
+    
 }
