@@ -12,7 +12,7 @@
         android:layout_height="35dp"
         android:text="Name: Twinky"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.264"
@@ -26,13 +26,13 @@
         android:layout_height="65dp"
         android:text="Description: Age unknown, male, domestic short hair"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintHorizontal_bias="0.553"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.448" />
+        app:layout_constraintVertical_bias="0.426" />
 
     <TextView
         android:id="@+id/location_animal4"
@@ -40,13 +40,13 @@
         android:layout_height="74dp"
         android:text="Location: Nearby Queensbay"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.557"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.554" />
+        app:layout_constraintVertical_bias="0.531" />
 
     <TextView
         android:id="@+id/status_animal4"
@@ -54,13 +54,13 @@
         android:layout_height="37dp"
         android:text="Status: Healthy"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintHorizontal_bias="0.566"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.632" />
+        app:layout_constraintVertical_bias="0.579" />
 
     <TextView
         android:id="@+id/neutered_animal4"
@@ -68,27 +68,27 @@
         android:layout_height="37dp"
         android:text="Neutered: No"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.566"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.703" />
+        app:layout_constraintVertical_bias="0.632" />
 
     <TextView
         android:id="@+id/lastFeed_animal4"
         android:layout_width="298dp"
         android:layout_height="66dp"
-        android:text="Last feed: 24/01/2022 \n7.40 p.m."
+        android:text="Last feed: 24/01/2022 7.40 p.m."
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.601"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.812" />
+        app:layout_constraintVertical_bias="0.715" />
 
     <Button
         android:id="@+id/update_current_situation4"
@@ -101,7 +101,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.904" />
+        app:layout_constraintVertical_bias="0.834" />
 
     <Button
         android:id="@+id/update_feeding_time4"
@@ -114,7 +114,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.906" />
 
     <ImageView
         android:id="@+id/Twinky"

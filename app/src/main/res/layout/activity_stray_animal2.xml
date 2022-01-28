@@ -12,13 +12,13 @@
         android:layout_height="37dp"
         android:text="Status: Healthy"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.583"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.632" />
+        app:layout_constraintVertical_bias="0.587" />
 
     <TextView
         android:id="@+id/neutered_animal2"
@@ -26,27 +26,27 @@
         android:layout_height="37dp"
         android:text="Neutered: No"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintHorizontal_bias="0.583"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.703" />
+        app:layout_constraintVertical_bias="0.641" />
 
     <TextView
         android:id="@+id/lastFeed_animal2"
         android:layout_width="298dp"
         android:layout_height="66dp"
-        android:text="Last feed: 24/01/2022 \n6.20 p.m."
+        android:text="Last feed: 24/01/2022 6.20 p.m."
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintHorizontal_bias="0.61"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.812" />
+        app:layout_constraintVertical_bias="0.724" />
 
     <Button
         android:id="@+id/update_current_situation2"
@@ -59,7 +59,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.904" />
+        app:layout_constraintVertical_bias="0.859" />
 
     <Button
         android:id="@+id/update_feeding_time2"
@@ -72,7 +72,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.931" />
 
     <ImageView
         android:id="@+id/milo"
@@ -92,7 +92,7 @@
         android:layout_height="35dp"
         android:text="Name: Milo"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.272"
@@ -106,13 +106,13 @@
         android:layout_height="88dp"
         android:text="Description: 6 months, female, domestic short hair, fierce"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.614"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.401" />
+        app:layout_constraintVertical_bias="0.385" />
 
     <TextView
         android:id="@+id/location_animal2"
@@ -120,11 +120,11 @@
         android:layout_height="72dp"
         android:text="Location: Clan Jetties Georgetown"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.588"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.541" />
+        app:layout_constraintVertical_bias="0.509" />
 </androidx.constraintlayout.widget.ConstraintLayout>
