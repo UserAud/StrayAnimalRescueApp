@@ -13,7 +13,7 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Claim extends AppCompatActivity {
+public class Claim extends AppCompatActivity{
     Button save, cancel;
     ImageView receipt;
 
@@ -26,15 +26,6 @@ public class Claim extends AppCompatActivity {
         cancel = findViewById(R.id.claim_cancel);
         receipt = findViewById(R.id.receipt_image);
 
-        receipt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent();
-                intent.setType("image/*");
-                intent.setAction(Intent.ACTION_GET_CONTENT);
-                startActivityForResult(Intent.createChooser(intent,"Title"),SELECT_IMAGE_CODE);
-            }
-        });
 
         save.setOnClickListener(new View.OnClickListener() {
             @Override
