@@ -4,27 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UpdateSituation">
-
-    <EditText
-        android:id="@+id/editTextTextPostalAddress"
-        android:layout_width="308dp"
-        android:layout_height="63dp"
-        android:ems="10"
-        android:hint="New Address"
-        android:inputType="textPostalAddress"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.399" />
+    tools:context=".UpdateTime">
 
     <TextView
-        android:id="@+id/u_situation"
+        android:id="@+id/U_feedingTime"
         android:layout_width="259dp"
         android:layout_height="95dp"
-        android:text="Update Current Situation"
+        android:text="Update Feeding Time"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="30sp"
@@ -35,7 +21,7 @@
         app:layout_constraintVertical_bias="0.149" />
 
     <Button
-        android:id="@+id/situation_save"
+        android:id="@+id/feeding_time_save"
         android:layout_width="95dp"
         android:layout_height="48dp"
         android:text="Save"
@@ -47,7 +33,7 @@
         app:layout_constraintVertical_bias="0.6" />
 
     <Button
-        android:id="@+id/situation_cancel"
+        android:id="@+id/feeding_time_cancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cancel"
@@ -58,4 +44,31 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.714" />
 
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Date (DD/MM/YYYY)"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.364" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Time (mm/hh)"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47" />
 </androidx.constraintlayout.widget.ConstraintLayout>

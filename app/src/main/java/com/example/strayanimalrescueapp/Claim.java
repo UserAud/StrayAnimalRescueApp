@@ -14,8 +14,9 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Claim extends AppCompatActivity{
-    Button save, cancel;
+    Button save, cancel,upload;
     ImageView receipt;
+    int SELECT_IMAGE_CODE = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +25,18 @@ public class Claim extends AppCompatActivity{
 
         save = findViewById(R.id.claim_save);
         cancel = findViewById(R.id.claim_cancel);
+        upload = findViewById(R.id.claim_receipt);
         receipt = findViewById(R.id.receipt_image);
 
+        upload.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setType("image/*");
+                intent.setAction(Intent.ACTION_GET_CONTENT);
+                startActivityForResult(Intent.createChooser(intent, "Title"), SELECT_IMAGE_CODE);
+            }
+        });
 
         save.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,4 +55,13 @@ public class Claim extends AppCompatActivity{
         });
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if(requestCode == 1){
+            Uri uri = data.getData();
+            receipt.setImageURI(uri);
+        }
+    }
 }

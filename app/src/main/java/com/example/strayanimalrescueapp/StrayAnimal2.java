@@ -1,17 +1,17 @@
 package com.example.strayanimalrescueapp;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class StrayAnimal1 extends AppCompatActivity {
+public class StrayAnimal2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_stray_animal1);
+        setContentView(R.layout.activity_stray_animal2);
     }
 
     public void update_situation(View v){
