@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adamina</item>
+        <item>@font/archivo_black</item>
+        <item>@font/cantarell</item>
+        <item>@font/open_sans</item>
+        <item>@font/open_sans_bold</item>
+        <item>@font/open_sans_light</item>
+        <item>@font/open_sans_semibold</item>
+        <item>@font/roboto_bold</item>
+        <item>@font/roboto_medium</item>
+    </array>
+</resources>
