@@ -3,6 +3,7 @@ package com.example.strayanimalrescueapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class userchoice extends AppCompatActivity {
@@ -11,6 +12,7 @@ public class userchoice extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_userchoice);
+
     }
 
     public void choice1(View v)
@@ -29,4 +31,11 @@ public class userchoice extends AppCompatActivity {
         Intent i = new Intent(this, Report.class);
         startActivity(i);
     }
+
+    public void choiceViewInfo(View v)
+    {
+        Intent i = new Intent(this, StrayAnimals.class);
+        startActivity(i);
+    }
+
 }
