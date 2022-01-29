@@ -13,7 +13,7 @@ import android.widget.Toast;
 public class Report extends AppCompatActivity {
 
     Button btn_submit;
-    EditText et_name, et_category, et_condition, et_address;
+    EditText et_name,et_phone, et_category, et_condition, et_location;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,8 @@ public class Report extends AppCompatActivity {
 
         btn_submit = findViewById(R.id.btn_submitreport);
         et_name = findViewById(R.id.et_namereport);
-        et_address = findViewById(R.id.et_addressreport);
+        et_phone = findViewById(R.id.et_phonereport);
+        et_location = findViewById(R.id.et_locationreport);
         et_category = findViewById(R.id.et_categoryreport);
         et_condition = findViewById(R.id.et_conditionreport);
 
@@ -44,8 +45,8 @@ public class Report extends AppCompatActivity {
         if(TextUtils.isEmpty(et_name.getText().toString())){
             et_name.setError("Cannot be Empty");
         }
-        if(TextUtils.isEmpty(et_address.getText().toString())){
-            et_address.setError("Cannot be Empty");
+        if(TextUtils.isEmpty(et_phone.getText().toString())){
+            et_phone.setError("Cannot be Empty");
         }
         if(TextUtils.isEmpty(et_condition.getText().toString())){
             et_condition.setError("Cannot be Empty");
@@ -53,8 +54,11 @@ public class Report extends AppCompatActivity {
         if(TextUtils.isEmpty(et_category.getText().toString())){
             et_category.setError("Cannot be Empty");
         }
+        if(TextUtils.isEmpty(et_location.getText().toString())){
+            et_location.setError("Cannot be Empty");
+        }
 
-        if(TextUtils.isEmpty(et_name.getText().toString()) || TextUtils.isEmpty(et_address.getText().toString()) || TextUtils.isEmpty(et_condition.getText().toString()) || TextUtils.isEmpty(et_category.getText().toString()))
+        if(TextUtils.isEmpty(et_name.getText().toString()) || TextUtils.isEmpty(et_phone.getText().toString()) || TextUtils.isEmpty(et_condition.getText().toString()) || TextUtils.isEmpty(et_category.getText().toString()) || TextUtils.isEmpty(et_location.getText().toString()))
             return true;
         else
             return false;
