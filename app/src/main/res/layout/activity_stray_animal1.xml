@@ -10,12 +10,11 @@
         android:id="@+id/oyen"
         android:layout_width="273dp"
         android:layout_height="175dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.434"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.095"
         app:srcCompat="@drawable/straycat1" />
 
     <TextView
@@ -25,12 +24,8 @@
         android:text="Last feed: 25/01/2022 5.20 p.m."
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.601"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.703" />
+        app:layout_constraintStart_toStartOf="@+id/neutered_animal1"
+        app:layout_constraintTop_toBottomOf="@+id/neutered_animal1" />
 
     <TextView
         android:id="@+id/neutered_animal1"
@@ -39,12 +34,8 @@
         android:text="Neutered: No"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.566"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.621" />
+        app:layout_constraintStart_toStartOf="@+id/status_animal1"
+        app:layout_constraintTop_toBottomOf="@+id/status_animal1" />
 
     <TextView
         android:id="@+id/status_animal1"
@@ -53,12 +44,8 @@
         android:text="Status: Sick"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.566"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.567" />
+        app:layout_constraintStart_toStartOf="@+id/location_animal1"
+        app:layout_constraintTop_toBottomOf="@+id/location_animal1" />
 
     <TextView
         android:id="@+id/location_animal1"
@@ -67,40 +54,29 @@
         android:text="Location: Subaidah USM"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.576"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.508" />
+        app:layout_constraintStart_toStartOf="@+id/description_animal1"
+        app:layout_constraintTop_toBottomOf="@+id/description_animal1" />
 
     <TextView
         android:id="@+id/description_animal1"
-        android:layout_width="290dp"
-        android:layout_height="65dp"
+        android:layout_width="293dp"
+        android:layout_height="48dp"
         android:text="Description: 1 y/o, male, domestic short hair, timid"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.561"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.426" />
+        app:layout_constraintStart_toStartOf="@+id/name_animal1"
+        app:layout_constraintTop_toBottomOf="@+id/name_animal1" />
 
     <TextView
         android:id="@+id/name_animal1"
         android:layout_width="154dp"
         android:layout_height="35dp"
+        android:layout_marginTop="16dp"
         android:text="Name: Oyen"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.264"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.357" />
+        app:layout_constraintStart_toStartOf="@+id/oyen"
+        app:layout_constraintTop_toBottomOf="@+id/oyen" />
 
     <Button
         android:id="@+id/update_current_situation"
@@ -108,12 +84,10 @@
         android:layout_height="wrap_content"
         android:onClick="update_situation"
         android:text="Update Current Situation"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.837" />
+        app:layout_constraintTop_toBottomOf="@+id/lastFeed_animal1" />
 
     <Button
         android:id="@+id/update_feeding_time"
@@ -121,11 +95,9 @@
         android:layout_height="48dp"
         android:onClick="update_time"
         android:text="Update Feeding Time"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/update_current_situation"
         app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.909" />
+        app:layout_constraintStart_toStartOf="@+id/update_current_situation"
+        app:layout_constraintTop_toBottomOf="@+id/update_current_situation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

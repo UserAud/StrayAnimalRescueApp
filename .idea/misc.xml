@@ -17,9 +17,26 @@
         <entry key="..\:/Users/AL/IdeaProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_adopt.xml" value="0.13360507246376813" />
         <entry key="..\:/Users/AL/IdeaProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_main.xml" value="0.13360507246376813" />
         <entry key="..\:/Users/AL/IdeaProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_menu.xml" value="0.4" />
-        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_donate.xml" value="0.22" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1265" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_adopt.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_adopt_user.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_animal_details.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_animal_list.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_donate.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_userchoice.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_menu.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_selected_animal.xml" value="0.22" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_stray_animal1.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_stray_animal2.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_stray_animal3.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_stray_animal4.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_strayanimals.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_street_stars.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_update_time.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_upload.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_upload_stray_animal.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_userchoice.xml" value="0.22" />
         <entry key="..\:/Users/User/StudioProjects/StrayAnimalRescueApp/app/src/main/res/layout/activity_vchoice.xml" value="0.1" />
       </map>
     </option>

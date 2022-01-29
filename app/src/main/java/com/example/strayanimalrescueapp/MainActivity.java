@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void next(View v)
     {
-        Intent i = new Intent(this, com.example.strayanimalrescueapp.ui.login.LoginActivity.class);
+        Intent i = new Intent(this, Menu.class);
         startActivity(i);
     }
 }
