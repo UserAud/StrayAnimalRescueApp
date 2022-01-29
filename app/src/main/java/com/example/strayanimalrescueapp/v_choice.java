@@ -14,7 +14,7 @@ public class v_choice extends AppCompatActivity {
     }
     public void v_choice1(View v)
     {
-        Intent i = new Intent(this, com.example.strayanimalrescueapp.Upload.class);
+        Intent i = new Intent(this, UploadStrayAnimal.class);
         startActivity(i);
     }
 

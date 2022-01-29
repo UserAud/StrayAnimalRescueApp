@@ -3,7 +3,6 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/adamina</item>
         <item>@font/archivo_black</item>
-        <item>@font/archivo_narrow</item>
         <item>@font/cantarell</item>
         <item>@font/open_sans</item>
         <item>@font/open_sans_bold</item>

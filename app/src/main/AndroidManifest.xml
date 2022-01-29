@@ -24,7 +24,19 @@
             android:name=".UpdateSituation"
             android:exported="false" />
         <activity
+            android:name=".UpdateTime"
+            android:exported="false" />
+        <activity
             android:name=".StrayAnimal1"
+            android:exported="false" />
+        <activity
+            android:name=".StrayAnimal2"
+            android:exported="false" />
+        <activity
+            android:name=".StrayAnimal3"
+            android:exported="false" />
+        <activity
+            android:name=".StrayAnimal4"
             android:exported="false" />
         <activity
             android:name=".AnimalList"
@@ -51,6 +63,7 @@
         <activity android:name=".StrayAnimals"/>
         <activity android:name=".UploadStrayAnimal"/>
         <activity android:name=".AnimalDetails"/>
+        <activity android:name=".AdoptUser"/>
 
         <meta-data
             android:name="preloaded_fonts"
