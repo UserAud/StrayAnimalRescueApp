@@ -49,6 +49,12 @@
         <activity android:name=".Login" />
         <activity android:name=".userchoice" />
         <activity android:name=".StrayAnimals"/>
+        <activity android:name=".UploadStrayAnimal"/>
+        <activity android:name=".AnimalDetails"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
