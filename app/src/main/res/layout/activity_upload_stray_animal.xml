@@ -10,6 +10,32 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout_AnimalLoc"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:hintEnabled="false"
+            app:startIconDrawable="@drawable/ic_baseline_location_on_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/upload_location_title">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextTextLoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/search_bg"
+                android:ems="10"
+                android:fontFamily="@font/cantarell"
+                android:hint="Animal Location"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
         <ImageView
             android:id="@+id/backInUpload"
             android:layout_width="wrap_content"
@@ -40,10 +66,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
             android:layout_marginTop="32dp"
             android:fontFamily="@font/archivo_black"
-            android:text="Name"
+            android:text="Animal Name"
             android:textColor="@android:color/background_dark"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -68,50 +93,26 @@
             android:id="@+id/upload_status_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/archivo_black"
             android:text="Status:"
             android:textColor="@android:color/background_dark"
             android:textSize="20sp"
-            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName3"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
-
-        <TextView
-            android:id="@+id/upload_neutered_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:fontFamily="@font/archivo_black"
-            android:text="Neutered:"
-            android:textColor="@android:color/background_dark"
-            android:textSize="20sp"
-            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName4"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout_AnimalDescription" />
 
         <TextView
             android:id="@+id/upload_location_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="16dp"
             android:fontFamily="@font/archivo_black"
             android:text="Location:"
             android:textColor="@android:color/background_dark"
             android:textSize="20sp"
-            app:layout_constraintStart_toStartOf="@+id/upload_neutered_title"
-            app:layout_constraintTop_toBottomOf="@+id/upload_neutered_title" />
-
-        <ImageView
-            android:id="@+id/mapView"
-            android:layout_width="376dp"
-            android:layout_height="212dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:background="@drawable/search_bg"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/upload_location_title"
-            app:layout_constraintTop_toBottomOf="@+id/upload_location_title"
-            app:srcCompat="@drawable/map" />
+            app:layout_constraintStart_toStartOf="@+id/neuteredcheckbox"
+            app:layout_constraintTop_toBottomOf="@+id/neuteredcheckbox" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout_AnimalName"
@@ -119,10 +120,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:hint="Name"
+            app:counterEnabled="true"
+            app:counterMaxLength="15"
+            app:hintEnabled="false"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/upload_name_title"
             app:layout_constraintTop_toBottomOf="@+id/upload_name_title">
@@ -137,42 +139,63 @@
                 android:background="@drawable/search_bg"
                 android:ems="10"
                 android:fontFamily="@font/cantarell"
-                tools:visibility="visible" />
+                android:hint="Name" />
         </com.google.android.material.textfield.TextInputLayout>
 
 
-
-        <EditText
-            android:id="@+id/editTextTextPersonName3"
-            android:layout_width="0dp"
-            android:layout_height="55dp"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout_AnimalDescription"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:background="@drawable/search_bg"
-            android:ems="10"
-            android:fontFamily="@font/cantarell"
-            android:hint="  Age/Characteristic"
-            android:inputType="textPersonName"
+            app:counterEnabled="true"
+            app:counterMaxLength="50"
+            app:hintEnabled="false"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/upload_description_title"
-            app:layout_constraintTop_toBottomOf="@+id/upload_description_title" />
+            app:layout_constraintTop_toBottomOf="@+id/upload_description_title">
 
-        <EditText
-            android:id="@+id/editTextTextPersonName4"
-            android:layout_width="0dp"
-            android:layout_height="55dp"
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/search_bg"
+                android:ems="10"
+                android:fontFamily="@font/cantarell"
+                android:hint="Age/Characteristic" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout_AnimalStatus"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:background="@drawable/search_bg"
-            android:ems="10"
-            android:fontFamily="@font/cantarell"
-            android:hint="  Health status"
-            android:inputType="textPersonName"
+            app:hintEnabled="false"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/upload_status_title"
-            app:layout_constraintTop_toBottomOf="@+id/upload_status_title" />
+            app:layout_constraintTop_toBottomOf="@+id/upload_status_title">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextTextStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/search_bg"
+                android:ems="10"
+                android:fontFamily="@font/cantarell"
+                android:hint="Health Status/Disability" />
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:id="@+id/uploadAnimalImg"
@@ -180,11 +203,11 @@
             android:layout_height="70dp"
             android:layout_marginTop="32dp"
             android:inputType="date"
-            android:text="Upload image"
+            android:text="UPLOAD IMAGE"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.421"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/mapView" />
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout_AnimalLoc" />
 
         <Button
             android:id="@+id/submitNewAnimal"
@@ -198,16 +221,19 @@
             app:layout_constraintStart_toStartOf="@+id/uploadAnimalImg"
             app:layout_constraintTop_toBottomOf="@+id/uploadAnimalImg" />
 
-        <Switch
-            android:id="@+id/switch1"
+        <CheckBox
+            android:id="@+id/neuteredcheckbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            app:layout_constraintBottom_toBottomOf="@+id/upload_neutered_title"
-            app:layout_constraintStart_toEndOf="@+id/upload_neutered_title"
-            app:layout_constraintTop_toTopOf="@+id/upload_neutered_title"
-            app:layout_constraintVertical_bias="0.0" />
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/archivo_black"
+            android:text="Neutered"
+            android:textColorLink="@color/purple_500"
+            android:textSize="20sp"
+            app:buttonTint="@color/design_default_color_primary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout_AnimalStatus" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
