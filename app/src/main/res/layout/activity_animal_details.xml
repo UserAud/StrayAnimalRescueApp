@@ -91,7 +91,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:fontFamily="@font/archivo_narrow"
+
         android:text="Status:"
         android:textColor="@android:color/background_dark"
         android:textSize="24sp"
@@ -103,7 +103,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:fontFamily="@font/archivo_narrow"
+
         android:text="Neutered:"
         android:textColor="@android:color/background_dark"
         android:textSize="24sp"
@@ -116,7 +116,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="32dp"
-        android:fontFamily="@font/archivo_narrow"
+
         android:text="Last feed:"
         android:textColor="@android:color/background_dark"
         android:textSize="24sp"
@@ -128,7 +128,7 @@
         android:id="@+id/animStatus"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/open_sans"
+
         android:text="TextView"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/animStatusTitle"
@@ -141,7 +141,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:fontFamily="@font/open_sans"
+
         android:text="TextView"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/animNeuteredTitle"
@@ -152,7 +152,7 @@
         android:id="@+id/animLastFeed"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/open_sans"
+
         android:text="TextView"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/animLastFeedTitle"
